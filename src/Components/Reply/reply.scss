@@ -1,0 +1,58 @@
+.reply_wrapper {
+  background-color: var(--White);
+  min-height: 11rem;
+  width: 100%;
+  border-radius: 1rem;
+  .reply_by_img img {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .reply_input textarea {
+    width: 100%;
+    outline: none;
+    border: 2px solid var(--Very_light_gray);
+    
+     min-height: 8rem;
+       height: auto;
+    border-radius: 0.6rem;
+    line-height: normal;
+    resize: none;
+    padding: 1rem !important;
+    font-size: 1.2rem;
+    color: var(--Grayish_Blue);
+    font-weight: 500;
+  }
+  .reply_send button {
+    padding: 0.8rem 1.6rem !important;
+    outline: none;
+    border: none;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 0.6rem;
+    background-color: var(--Moderate_blue);
+    color: var(--White);
+    width: 85%;
+    &:hover {
+      background-color: var(--Light_grayish_blue);
+      color: var(--White);
+    }
+  }
+}
+@media only screen and (max-width:500px) {
+  .reply_wrapper{
+    flex-direction: column-reverse !important;
+    position: relative;
+    .reply_input{
+      width: 100% !important;
+      margin-bottom: 2rem !important;
+    }
+    .replyBtnWrapper{
+      position: absolute;
+      bottom: 2rem !important;
+      right: 2rem !important;
+      width: 9rem !important;
+    }
+  }
+}

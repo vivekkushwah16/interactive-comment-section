@@ -11,3 +11,86 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* ============================================== HTML FONT SIZE ======================================= */
+
+@media only screen and (max-width: 1920px) {
+  body,
+  html {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 1800px) {
+  body,
+  html {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 1700px) {
+  body,
+  html {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1600px) {
+  body,
+  html {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  body,
+  html {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 1365px) {
+ 
+  body,
+  html {
+    font-size: 11px;
+  }
+}
+/* Iphone 11 above */
+@media only screen and (max-width: 1200px) {
+  body,
+  html {
+    font-size: 9px;
+  }
+}
+
+/* Iphone 11 */
+@media only screen and (max-width: 991px) {
+  body,
+  html {
+    font-size: 10px;
+  }
+}
+
+/* Iphone 11 above */
+@media only screen and (max-width: 767px) {
+  body,
+  html {
+    font-size: 10px;
+  }
+}
+/* Iphone 11 above */
+@media only screen and (max-width: 650px) {
+  body,
+  html {
+    font-size: 8px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  body,
+  html {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  body,
+  html {
+    font-size: 9px;
+  }
+}

@@ -1,0 +1,43 @@
+.modal_wrapper {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background-color: rgba(68, 68, 68, 0.514);
+  // opacity: 0.5;
+  .modal_container {
+    width: 35rem;
+    height: 22rem;
+    border-radius: 0.8rem;
+    background-color: var(--White);
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: var(--Dark_blue);
+    }
+    p {
+      font-size: 1.4rem;
+      line-height: 1.2;
+      font-weight: 500;
+      color: var(--Grayish_Blue);
+    }
+    .modal_actionBtn {
+      button {
+        width: 48%;
+        padding: 1rem 2rem !important;
+        outline: none;
+        border: none;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        font-weight: 500;
+        border-radius: 0.6rem;
+        background-color: var(--Soft_Red);
+        color: var(--White);
+      }
+      .cancel_btn{
+         background-color: var(--Grayish_Blue); 
+      }
+    }
+  }
+}
